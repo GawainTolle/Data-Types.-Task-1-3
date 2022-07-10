@@ -1,0 +1,16 @@
+const letters = 26;
+console.log("Letters:", letters, typeof letters);
+const language = "English";
+console.log("Language:", language, typeof language);
+const english = true;
+console.log("English", english, typeof english);
+const german = null;
+console.log("Other Languages:", german, typeof german);
+let polish;
+console.log("Polish", polish);
+const main = { laguage: "English", english: true, german: null, polish: undefined };
+console.log("Overall info:", main, typeof main);
+const bigNumber = BigInt(42);
+console.log("LanguageNumberID:", bigNumber, typeof bigNumber);
+const newFolder = Symbol("personInfo");
+console.log("New folder:", newFolder, typeof newFolder);
